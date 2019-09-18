@@ -1,4 +1,46 @@
-git clone https://github.com/eet182560/hello-world.git
+ 1881  git -version
+ 1882  git --version
+ 1883  sudo apt-get install git
+ 1884  gedit .bashrc
+ 1885  git config --global http.proxy 10.10.78.62:3128
+ 1886  git config --global https.proxy 10.10.78.62:3128
+ 1887  git config --global
+ 1888  git config --list
+ 1889  mkdir eet182560_8
+ 1890  touch ps1.py
+ 1891  touch ps2.py
+ 1892  touch Makefile
+ 1893  ls -lrt
+ 1894  mv *.py Makefile ./eet182560_8
+ 1895  ls -lrt
+ 1896  cd eet182560_8
+ 1897  ls -lrt
+ 1898  vim Makefile 
+ 1899  make 
+ 1900  touch .gitignore
+ 1901  ls -lrt
+ 1902  rm Makefile~
+ 1903  ls -lrta
+ 1904  rm .Makefile.un~ 
+ 1905  ls -lrta
+ 1906  make 
+ 1907  clear
+ 1908  exit
+ 1909  python ps1.py 
+ 1910  python3 ps1.py 
+ 1911  S
+ 1912  D
+ 1913  s
+ 1914  S
+ 1915  D
+ 1916  S
+ 1917  D
+ 1918  S
+ 1919  python3 ps1.py 
+ 1920  clear
+ 1921  python3 ps2.py 
+ 1922  exit
+ 1923  git clone https://github.com/eet182560/hello-world.git
  1924  ls -lrt
  1925  cd hello-world/
  1926  ls -lrt
@@ -145,4 +187,26 @@ git clone https://github.com/eet182560/hello-world.git
  2067  git add .
  2068  git commit -m "Updated files"
  2069  git log
- 2070  history > terminal.cmd
+ 2070  history > termina.cmd
+ 2071  ls -lrt
+ 2072  mv termina.cmd terminal.cmd
+ 2073  ls -lrt
+ 2074  git log
+ 2075  git status
+ 2076  git add .
+ 2077  git commit -m "Command file"
+ 2078  git status
+ 2079  git add .
+ 2080  git commit -m "Command file"
+ 2081  git log
+ 2082  clear
+ 2083  make
+ 2084  git status
+ 2085  git add .
+ 2086  git commit -m "Final Commit"
+ 2087  ls -ltr
+ 2088  git pull origin master
+ 2089  git remote -v
+ 2090  git push -u origin master
+ 2091  git status
+ 2092  history > terminal.cmd

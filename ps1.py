@@ -62,8 +62,6 @@ def generateTransmissiondata(strParity):
 	return ''.join(newStr) + '0101'
 
 
-
-
 ## Execution start from here
 # Take input from user
 String = input("Enter the binary String :")
