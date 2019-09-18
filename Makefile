@@ -7,3 +7,4 @@ ps1: ps1.py
 ps2: ps2.py
 	python3 ps2.py < input2.txt
 	python3 ps2.py < input2_1.txt
+	python3 ps2.py < input2_2.txt
