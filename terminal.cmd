@@ -145,4 +145,4 @@ git clone https://github.com/eet182560/hello-world.git
  2067  git add .
  2068  git commit -m "Updated files"
  2069  git log
- 2070  history > termina.cmd
+ 2070  history > terminal.cmd
