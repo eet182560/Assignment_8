@@ -67,7 +67,7 @@ def generateTransmissiondata(strParity):
 ## Execution start from here
 # Take input from user
 String = input("Enter the binary String :")
-
+print(String)
 #Check validity of String
 if checkVal(String) == -1:
 	print("Invalid input")

@@ -3,7 +3,7 @@ import numpy as np
 # Function Declarations and Definitions
 # Display the matrix / board
 def display(mat):
-
+	print()
 	print(mat[0: 3])
 	print(mat[3 : 6])
 	print(mat[6 : 9])
@@ -130,6 +130,7 @@ while True:
 	print()
 	print("Player " + str(player) + "'s Chance")
 	pos, num = input("Enter the position and number to be entered: ").split(",")
+	print(pos, num)
 
 	# Check validity of position
 	pos = int(pos)
